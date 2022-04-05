@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+/* Basic CSS reset */
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+
+/* You start your css below */  
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 0px;
+    background-color: #FEFCFC;
+  }
+
+/* startside med video */
+  .ytplayer {
+    position: relative;
+  }
+
+ .forsidevideo {
+    width: 100%;
+    height: auto;
+  }
+
+  #forsidevideo {
+    position: relative;
+    height: 50%;
+  }
+
+  #headerimg {
+    width: 5%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-right: 0%;
+    margin-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 0;
+    position: fixed;
+    z-index: 99;
+  }
+
+/* dropdown */
+
+  .kasser {
+    position: relative;
+    padding: 8%;
+    text-align: center;
+    padding-bottom: 30%;
+  }
+
+  .dropdown {
+    margin: 25px;
+    width:20%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.dropbtn:hover, .dropbtn:focus {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 15%;
+  top: 65%;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover { -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); }
+
+.læsmere:hover { -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); }
+
+.show {display: block;}
+
+.dropdownimg {
+  width:250px;
+  height: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdowntab {
+  width: 850px;
+  height: auto;
+}
+
+.læsmere {
+  width: 500px;
+  height: auto;
+}
+
+/* parallax */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+  text-align: center;
+}
+
+.container .title {
+  padding: 6em;
+}
+
+.container h1 {
+  text-align: left;
+  font-size: 2em;
+  letter-spacing: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  margin-left: 5%;
+}
+
+.container h2 {
+  font-size: 1.5em;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+
+.container h3 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  line-height: 2em;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container h4, h4 {
+  padding: 5%;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.between1 {
+  height: 320vw;
+  position: relative;
+  background-image: url("../images/content-bag.png");
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  background-size: 1000px 1000px;
+}
+
+.between2 {
+  height: 445vw;
+  position: relative;
+  background-image: url("../images/ux-bag.png");
+  background-repeat: no-repeat;
+  background-position: 50% 4%;
+  background-size: 1000px 1000px;
+}
+
+.between3 {
+  height: 335vw;
+  position: relative;
+  background-image: url("../images/frontend-bag.png");
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  background-size: 1000px 1000px;
+}
+
+.container .front {
+  background-image: url("../images/eaaapara.jpg");
+}
+
+.container .ux {
+  background-image: url("../images/eaaa.jpg");
+}
+
+.container .cont {
+  background-image: url("../images/eaaapara2.jpg");
+}
+
+.container .parallax {
+  width: 100%;
+  padding: 25em 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+/* lasse */
+
+.lasse {
+  padding-top: 5%;
+  margin-left: -11%;
+  text-align: left;
+}
+
+.broedtekst {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 40px;
+  margin-top: 10%;
+}
+
+.citat {
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 2em;
+  padding: 6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.vtk1 {
+  width: 100%;
+  height: auto;
+}
+
+.jolly {
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-align: left;
+  padding-left: 10%;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+a {
+  color: #80B5C1;
+}
+
+.studiejob {
+  background-image: url("../images/studiejobs.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  height: 70em;
+  background-position: 50% 80%;
+}
+
+.studietekst {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .7);
+  margin-top: 6%;
+  margin-left: 0;
+  margin-right: 50%;
+  padding: 5%;
+}
+
+.drømmetekst {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 40px;
+}
+
+.eaaabanner {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+  margin-top: 10%;
+}
+
+/* emma */
+
+.emma {
+  padding-top: 5%;
+  margin-left: -11%;
+  text-align: left;
+}
+
+.broedtekst {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 40px;
+  margin-top: 10%;
+}
+
+.containercitat {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.doncitat {
+  letter-spacing: normal;
+  text-transform: none;
+  font-size: 2em;
+  padding: 2em;
+  text-align: left;
+  padding-left: 20 px;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: bold;
+  font-style: italic;
+}
+
+.donbillede{
+  max-width: 100%;
+  margin-right: 5%;
+  margin-bottom: -5%;
+}
+
+.ux {
+  max-width: 100%;
+  border:1px solid #858585;
+  margin: 0;
+  padding: 0;
+}
+
+.uxbaggrund {
+  background-image: url("../images/baggrund.png"); 
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  height: 110vw;
+  background-position: 35% 15%;
+}
+
+.uxtext {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  padding: 40px;
+  margin-left: 12px;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.emmaimg {
+  max-width: 60%;
+  margin: 10%;
+}
+
+.projektimg img {
+  max-width: 100%;
+}
+
+.flextekst {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  padding: 40px;
+  margin-left: 12px;
+  background-color: rgba(255, 255, 255, .7);
+  margin-top: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-top: 10%;
+}
+
+/* Create 2 equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 2px;
+}
+
+/* tin */
+
+.tin {
+  padding-top: 5%;
+  margin-left: -11%;
+  text-align: left;
+}
+
+.kodeimg {
+  max-width: 100%;
+  padding: 8em
+}
+
+.frontbag {
+  background-image: url("../images/baggrund.png");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+  height: 100vw;
+  background-position: 35% 100%;
+}
+
+.broedteksttin {
+  color: black;
+  letter-spacing: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: none;
+  line-height: 2em;
+  text-align: left;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .7);
+  margin-top: 5%;
+  padding: 40px;
+}
+
+.solbilerimg {
+  margin-top: 10%;
+}
+
+.værktøjskasset {
+  max-width: 100%;
+  margin-top: 10%;
+}
+
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+}
